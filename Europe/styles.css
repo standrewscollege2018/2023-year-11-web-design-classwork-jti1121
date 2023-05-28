@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Sunshine;
+    src: url(sunshineformulaDEMO.otf);
+}
+
+@font-face {
+    font-family: Sans;
+    src: url(MADEOkineSansPERSONALUSE-Regular.otf);
+}
+
+
+body {
+    background-color: rgb(255, 232, 209);
+    font-family: Sans;
+    color: rgb(174, 104, 104);
+    
+    /* background-image: url("websiteimagine.jpg");
+    background-repeat: no-repeat;
+    background-size:cover; */
+}
+h1 {
+    font-family: Sunshine;
+    font-size: 45pt;
+    color: rgb(174, 104, 104);}
+
+
+
+
+/* Links */
+a:link {
+color:
+}
+a:visited {
+
+}
+a:hover {
+
+}
