@@ -29,7 +29,6 @@ h1 {
     color: rgb(255, 255, 255);
     margin-bottom: 10px;
     padding: 10px;
-    text-align: center;
 }
 
 h2{
@@ -61,11 +60,12 @@ a:hover {
 
 .container {
     display: grid;
-    grid-template-columns: 300px auto;;
+    grid-template-columns: 20% 75%;;
 }
 
 .sidebar {
     padding:  20px;
+    margin: 30px;
 }
 .maincontent {
     padding: 0px 0px;
