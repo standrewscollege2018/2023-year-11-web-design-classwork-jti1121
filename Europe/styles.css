@@ -26,7 +26,7 @@ body {
 h1 {
     font-family: Sunshine;
     font-size: 45pt;
-    color: rgb(255, 255, 255);
+    color: rgbrgb(175,85,81);
     margin-bottom: 10px;
     padding: 10px;
     text-align: center;
@@ -35,7 +35,6 @@ h1 {
 h2{
     margin-top: 30px;
     margin-bottom: 10px;
-
 }
 p{
     padding-bottom: 5px;
@@ -61,12 +60,42 @@ a:hover {
 
 .container {
     display: grid;
-    grid-template-columns: 300px auto;;
+    grid-template-columns: 35% 65%;
+}
+
+.countrycontainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 .sidebar {
     padding:  20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(175,85,81);
+    
 }
 .maincontent {
-    padding: 0px 0px;
+    padding: 20px;
+    border: black 1px solid;
+    border-radius: 20px;
+    overflow: hidden;   
+}
+
+.card{
+    margin: 10px;
+    border: 1px rgb(255, 169, 164);
+    border-radius: 10px;
+    background-color: rgb(255, 169, 164);
+    color:rgb(255, 255, 255) ;
+    padding: 5px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.header {
+    text-align: center;
 }
