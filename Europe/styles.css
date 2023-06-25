@@ -16,10 +16,9 @@
 
 
 body {
-    background-color: rgb(175,85,81);
+    background-color: rgb(255, 255, 255);
     font-family: Sans;
     color: rgb(255, 255, 255);
-    padding: 20px 10px 20px 10px;
 
 }
 
@@ -76,9 +75,9 @@ a:hover {
 }
 .maincontent {
     padding: 20px;
-    border: black 1px solid;
-    border-radius: 20px;
-    overflow: hidden;   
+    overflow: hidden;
+    background-color: rgb(175,85,81);
+    min-height: 100vh;
 }
 
 .card{

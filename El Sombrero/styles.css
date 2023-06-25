@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner {
+    display: grid;
+    grid-template-columns: 3fr 2fr 3fr;
+    padding: 30px;
+    background-color: rgb(143, 32, 34);
+    color: rgb(255, 255, 255);
+    height: 50px;
+    position: relative;
+}
+
+.banner a:link, a:visited {
+    color: white;
+    font-family: Gothic;
+    text-decoration: none;
+    margin: 0px 60px;
+    font-size: 30px;
+}
+.banner img {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left:calc(50% - 150px);
+}
+.logo {
+    text-align: center;
+}
+@font-face {
+    font-family: Sans;
+    src: url(MADEOkineSansPERSONALUSE-Regular.otf);
+}
+
+@font-face {
+    font-family: Gothic;
+    src: url(LeagueGothic-Regular.ttf);
+}
+
+@font-face {
+    font-family: Abril;
+    src: url(AbrilFatface-Regular.ttf);
+}
+
+@font-face {
+    font-family: Swash;
+    src: url(BerkshireSwash-Regular.ttf);
+}
+
+body{
+    background-image: url(Images/pexels-ella-olsson-1640774.jpg);
+    background-size: cover;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 93px;
+    font-family: Abril;
+    padding-bottom: 15px;
+}
+
+p{
+    color: white;
+    padding-top: 0px;
+    text-align: center;
+    font-family: Swash;
+    font-size: 26px;
+}
+
+.title{
+    padding: 110px;
+    text-align: center;
+}
+
+.title img{
+    max-width: 10%;
+    max-height: 10%;
+}
+
+.button{
+    background-color: rgb(143, 32, 34);
+    color:rgb(255, 255, 255) ;
+    padding: 5px;
+    width: 300px;
+    text-align: center;
+    font-family: Gothic;
+}

@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header img{
+    max-width: 100%;
+}
+
+.header_links p {
+    text-align: center;
+}
+
+.header_links a:link, a:visited {
+    text-align: center;
+    margin: 0px 50px;
+    text-decoration: none;
+}
